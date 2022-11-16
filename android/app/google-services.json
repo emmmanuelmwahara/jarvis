@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "295910566687",
+    "firebase_url": "https://jarvis-592cf-default-rtdb.firebaseio.com",
+    "project_id": "jarvis-592cf",
+    "storage_bucket": "jarvis-592cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295910566687:android:d3238871b73b5e750d5e2a",
+        "android_client_info": {
+          "package_name": "com.cumawa.jarvis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "295910566687-6mum7lso87qn6oe5o89gm419rl3vrq16.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cumawa.jarvis",
+            "certificate_hash": "79a2c2cc11920d4e132a59e950bc111807db4782"
+          }
+        },
+        {
+          "client_id": "295910566687-rqngtk1p2no4a34dg8r3rbaj33769v6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKgNEpyvpM7te58vWeQ1486znwT6RdFpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "295910566687-rqngtk1p2no4a34dg8r3rbaj33769v6t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "295910566687-s0k4i1glkk09g2phqbejt44lcicd9hlm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.cumawa.jarvis"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
