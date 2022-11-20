@@ -15,11 +15,11 @@
       },
       "oauth_client": [
         {
-          "client_id": "295910566687-6mum7lso87qn6oe5o89gm419rl3vrq16.apps.googleusercontent.com",
+          "client_id": "295910566687-vjbvqvodckbggvaevvff169r5anqcou8.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.cumawa.jarvis",
-            "certificate_hash": "79a2c2cc11920d4e132a59e950bc111807db4782"
+            "certificate_hash": "c1bd576b408a8674e79e70739270d4c25de67f60"
           }
         },
         {

@@ -22,13 +22,13 @@ class Authenticate extends StatefulWidget {
 class _AuthenticateState extends State<Authenticate> {
   //authenticating user
   final FirebaseAuth fireAuth = FirebaseAuth.instance;
-  final database = FirebaseDatabase.instance.reference();
+  final database = FirebaseDatabase.instance.ref();
   bool isLoading = false;
   String accountMessage = "";
 
   final GoogleSignIn _googleSignIn = GoogleSignIn(
-    clientId:
-        "353269376683-dm8pr73ulide8odsp4a11cnpfc1gavtd.apps.googleusercontent.com",
+    // clientId:
+    //     "353269376683-dm8pr73ulide8odsp4a11cnpfc1gavtd.apps.googleusercontent.com",
     scopes: <String>['email'],
   );
 
@@ -38,7 +38,7 @@ class _AuthenticateState extends State<Authenticate> {
     User? user;
 
     _googleSignIn.onCurrentUserChanged.listen((GoogleSignInAccount? account) {
-      _handleFirebase() async {
+      handleFirebase() async {
         final GoogleSignInAccount? account = await _googleSignIn.signIn();
         final GoogleSignInAuthentication authentication =
             await account!.authentication;
@@ -58,7 +58,7 @@ class _AuthenticateState extends State<Authenticate> {
         );
       }
 
-      _handleFirebase();
+      handleFirebase();
 
       _googleSignIn.signInSilently();
     });
